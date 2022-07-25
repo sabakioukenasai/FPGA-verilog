@@ -1,0 +1,24 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+D:/codeworkplace/VS-Code-V/project/cpu_SoC/DIPswitch.v,1656641405,verilog,,D:/codeworkplace/VS-Code-V/project/cpu_SoC/cpu_SoC.srcs/sources_1/imports/cpu_SoC/branchcmp.v,,DIPswitch,,,../../../../cpu_SoC.srcs/sources_1/ip/cpuclk,,,,,
+D:/codeworkplace/VS-Code-V/project/cpu_SoC/cpu_SoC.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+D:/codeworkplace/VS-Code-V/project/cpu_SoC/cpu_SoC.srcs/sim_1/new/top_sim.v,1657622171,verilog,,,,top_sim,,,../../../../cpu_SoC.srcs/sources_1/ip/cpuclk,,,,,
+D:/codeworkplace/VS-Code-V/project/cpu_SoC/cpu_SoC.srcs/sources_1/imports/cpu_SoC/branchcmp.v,1656472349,verilog,,D:/codeworkplace/VS-Code-V/project/cpu_SoC/cpu_SoC.srcs/sources_1/imports/cpu_SoC/control.v,,branchcmp,,,../../../../cpu_SoC.srcs/sources_1/ip/cpuclk,,,,,
+D:/codeworkplace/VS-Code-V/project/cpu_SoC/cpu_SoC.srcs/sources_1/imports/cpu_SoC/control.v,1657007356,verilog,,D:/codeworkplace/VS-Code-V/project/cpu_SoC/cpu_SoC.srcs/sources_1/imports/cpu_SoC/execute.v,,control,,,../../../../cpu_SoC.srcs/sources_1/ip/cpuclk,,,,,
+D:/codeworkplace/VS-Code-V/project/cpu_SoC/cpu_SoC.srcs/sources_1/imports/cpu_SoC/execute.v,1656472358,verilog,,D:/codeworkplace/VS-Code-V/project/cpu_SoC/cpu_SoC.srcs/sources_1/imports/cpu_SoC/idecode.v,,execute,,,../../../../cpu_SoC.srcs/sources_1/ip/cpuclk,,,,,
+D:/codeworkplace/VS-Code-V/project/cpu_SoC/cpu_SoC.srcs/sources_1/imports/cpu_SoC/idecode.v,1656472361,verilog,,D:/codeworkplace/VS-Code-V/project/cpu_SoC/iobus.v,,idecode,,,../../../../cpu_SoC.srcs/sources_1/ip/cpuclk,,,,,
+D:/codeworkplace/VS-Code-V/project/cpu_SoC/cpu_SoC.srcs/sources_1/imports/cpu_SoC/miniRV.v,1657160285,verilog,,D:/codeworkplace/VS-Code-V/project/cpu_SoC/cpu_SoC.srcs/sources_1/imports/cpu_SoC/pcUpdate.v,,mini_rv,,,../../../../cpu_SoC.srcs/sources_1/ip/cpuclk,,,,,
+D:/codeworkplace/VS-Code-V/project/cpu_SoC/cpu_SoC.srcs/sources_1/imports/cpu_SoC/pcUpdate.v,1656558190,verilog,,D:/codeworkplace/VS-Code-V/project/cpu_SoC/cpu_SoC.srcs/sources_1/imports/cpu_SoC/register.v,,pcUpdate,,,../../../../cpu_SoC.srcs/sources_1/ip/cpuclk,,,,,
+D:/codeworkplace/VS-Code-V/project/cpu_SoC/cpu_SoC.srcs/sources_1/imports/cpu_SoC/register.v,1657101642,verilog,,D:/codeworkplace/VS-Code-V/project/cpu_SoC/cpu_SoC.srcs/sources_1/imports/cpu_SoC/sext.v,,register,,,../../../../cpu_SoC.srcs/sources_1/ip/cpuclk,,,,,
+D:/codeworkplace/VS-Code-V/project/cpu_SoC/cpu_SoC.srcs/sources_1/imports/cpu_SoC/sext.v,1657006375,verilog,,D:/codeworkplace/VS-Code-V/project/cpu_SoC/top.v,,sext,,,../../../../cpu_SoC.srcs/sources_1/ip/cpuclk,,,,,
+D:/codeworkplace/VS-Code-V/project/cpu_SoC/cpu_SoC.srcs/sources_1/ip/cpuclk/cpuclk.v,1655984010,verilog,,D:/codeworkplace/VS-Code-V/project/cpu_SoC/DIPswitch.v,,cpuclk,,,../../../../cpu_SoC.srcs/sources_1/ip/cpuclk,,,,,
+D:/codeworkplace/VS-Code-V/project/cpu_SoC/cpu_SoC.srcs/sources_1/ip/cpuclk/cpuclk_clk_wiz.v,1655984010,verilog,,D:/codeworkplace/VS-Code-V/project/cpu_SoC/cpu_SoC.srcs/sources_1/ip/cpuclk/cpuclk.v,,cpuclk_clk_wiz,,,../../../../cpu_SoC.srcs/sources_1/ip/cpuclk,,,,,
+D:/codeworkplace/VS-Code-V/project/cpu_SoC/cpu_SoC.srcs/sources_1/ip/dram/sim/dram.v,1657682021,verilog,,D:/codeworkplace/VS-Code-V/project/cpu_SoC/cpu_SoC.srcs/sources_1/ip/prgrom/sim/prgrom.v,,dram,,,../../../../cpu_SoC.srcs/sources_1/ip/cpuclk,,,,,
+D:/codeworkplace/VS-Code-V/project/cpu_SoC/cpu_SoC.srcs/sources_1/ip/prgrom/sim/prgrom.v,1657682047,verilog,,D:/codeworkplace/VS-Code-V/project/cpu_SoC/cpu_SoC.srcs/sources_1/ip/cpuclk/cpuclk_clk_wiz.v,,prgrom,,,../../../../cpu_SoC.srcs/sources_1/ip/cpuclk,,,,,
+D:/codeworkplace/VS-Code-V/project/cpu_SoC/cpuclk_sim.v,1655983585,verilog,,,,cpuclk_sim,,,../../../../cpu_SoC.srcs/sources_1/ip/cpuclk,,,,,
+D:/codeworkplace/VS-Code-V/project/cpu_SoC/iobus.v,1656988685,verilog,,D:/codeworkplace/VS-Code-V/project/cpu_SoC/leddisplay.v,,iobus,,,../../../../cpu_SoC.srcs/sources_1/ip/cpuclk,,,,,
+D:/codeworkplace/VS-Code-V/project/cpu_SoC/leddisplay.v,1656642745,verilog,,D:/codeworkplace/VS-Code-V/project/cpu_SoC/cpu_SoC.srcs/sources_1/imports/cpu_SoC/miniRV.v,,leddisplay,,,../../../../cpu_SoC.srcs/sources_1/ip/cpuclk,,,,,
+D:/codeworkplace/VS-Code-V/project/cpu_SoC/top.v,1657618612,verilog,,D:/codeworkplace/VS-Code-V/project/cpu_SoC/tubedisplay.v,,top,,,../../../../cpu_SoC.srcs/sources_1/ip/cpuclk,,,,,
+D:/codeworkplace/VS-Code-V/project/cpu_SoC/tubedisplay.v,1656643443,verilog,,D:/codeworkplace/VS-Code-V/project/cpu_SoC/cpu_SoC.srcs/sim_1/new/top_sim.v,,tubedisplay,,,../../../../cpu_SoC.srcs/sources_1/ip/cpuclk,,,,,
