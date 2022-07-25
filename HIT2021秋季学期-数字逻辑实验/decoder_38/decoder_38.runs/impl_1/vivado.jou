@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Nov  6 12:37:41 2021
+# Process ID: 12480
+# Current directory: D:/codeworkplace/VS-Code-V/project/decoder_38/decoder_38.runs/impl_1
+# Command line: vivado.exe -log decoder_38.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source decoder_38.tcl -notrace
+# Log file: D:/codeworkplace/VS-Code-V/project/decoder_38/decoder_38.runs/impl_1/decoder_38.vdi
+# Journal file: D:/codeworkplace/VS-Code-V/project/decoder_38/decoder_38.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source decoder_38.tcl -notrace

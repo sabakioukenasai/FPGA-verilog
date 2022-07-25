@@ -1,0 +1,67 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sun Nov 21 17:34:04 2021
+| Host         : DESKTOP-2OOS4AI running 64-bit major release  (build 9200)
+| Command      : report_methodology -file memory_top_methodology_drc_routed.rpt -pb memory_top_methodology_drc_routed.pb -rpx memory_top_methodology_drc_routed.rpx
+| Design       : memory_top
+| Device       : xc7a100tfgg484-1
+| Speed File   : -1
+| Design State : Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 5
++-----------+----------+--------------------------------------------------------+------------+
+| Rule      | Severity | Description                                            | Violations |
++-----------+----------+--------------------------------------------------------+------------+
+| LUTAR-1   | Warning  | LUT drives async reset alert                           | 2          |
+| TIMING-20 | Warning  | Non-clocked latch                                      | 1          |
+| XDCC-1    | Warning  | Scoped Clock constraint overwritten with the same name | 1          |
+| XDCC-7    | Warning  | Scoped Clock constraint overwritten on the same source | 1          |
++-----------+----------+--------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell u_memory_w_r/state_reg[0]_LDC_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) u_memory_w_r/state_reg[0]_P/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#2 Warning
+LUT drives async reset alert  
+LUT cell u_memory_w_r/state_reg[0]_LDC_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) u_memory_w_r/state_reg[0]_C/CLR, u_memory_w_r/state_reg[0]_LDC/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch u_memory_w_r/state_reg[0]_LDC cannot be properly analyzed as its control pin u_memory_w_r/state_reg[0]_LDC/G is not reached by a timing clock
+Related violations: <none>
+
+XDCC-1#1 Warning
+Scoped Clock constraint overwritten with the same name  
+A new clock constraint create_clock overrides a previous scoped clock constraint with the same name. It is not recommended to override a scoped (typically an IP) clock constraint and could result in unexpected behaviors.
+New: create_clock -period 10.000 -name clk [get_ports clk] (Source: D:/codeworkplace/VS-Code-V/project/memory_w_r/clock.xdc (Line: 1))
+Previous: create_clock -period 10.000 [get_ports clk] (Source: d:/codeworkplace/VS-Code-V/project/memory_w_r/memory_w_r.srcs/sources_1/ip/clk_div_1/clk_div.xdc (Line: 56))
+Related violations: <none>
+
+XDCC-7#1 Warning
+Scoped Clock constraint overwritten on the same source  
+A new clock constraint create_clock overrides a previous scoped clock constraint defined on the same source. It is not recommended to override a scoped (typically an IP) clock constraint and could result in unexpected behaviors.
+New: create_clock -period 10.000 -name clk [get_ports clk] (Source: D:/codeworkplace/VS-Code-V/project/memory_w_r/clock.xdc (Line: 1))
+Previous: create_clock -period 10.000 [get_ports clk] (Source: d:/codeworkplace/VS-Code-V/project/memory_w_r/memory_w_r.srcs/sources_1/ip/clk_div_1/clk_div.xdc (Line: 56))
+Related violations: <none>
+
+

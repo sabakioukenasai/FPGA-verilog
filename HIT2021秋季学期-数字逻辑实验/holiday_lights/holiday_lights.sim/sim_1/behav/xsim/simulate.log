@@ -1,0 +1,9 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+wrong at index 1
+=====================================
+Test end!
+----FAIL!!!
+reference   led_num : 2
+test module led_num : 1
+$finish called at time : 285 ns : File "D:/codeworkplace/VS-Code-V/project/holiday_lights/testbench.v" Line 97

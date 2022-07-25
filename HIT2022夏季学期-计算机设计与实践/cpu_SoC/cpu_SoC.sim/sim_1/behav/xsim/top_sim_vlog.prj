@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../cpu_SoC.srcs/sources_1/ip/cpuclk" \
+"../../../../cpu_SoC.srcs/sources_1/ip/dram/sim/dram.v" \
+"../../../../cpu_SoC.srcs/sources_1/ip/prgrom/sim/prgrom.v" \
+"../../../../cpu_SoC.srcs/sources_1/ip/cpuclk/cpuclk_clk_wiz.v" \
+"../../../../cpu_SoC.srcs/sources_1/ip/cpuclk/cpuclk.v" \
+"../../../../DIPswitch.v" \
+"../../../../cpu_SoC.srcs/sources_1/imports/cpu_SoC/branchcmp.v" \
+"../../../../cpu_SoC.srcs/sources_1/imports/cpu_SoC/control.v" \
+"../../../../cpu_SoC.srcs/sources_1/imports/cpu_SoC/execute.v" \
+"../../../../cpu_SoC.srcs/sources_1/imports/cpu_SoC/idecode.v" \
+"../../../../iobus.v" \
+"../../../../leddisplay.v" \
+"../../../../cpu_SoC.srcs/sources_1/imports/cpu_SoC/miniRV.v" \
+"../../../../cpu_SoC.srcs/sources_1/imports/cpu_SoC/pcUpdate.v" \
+"../../../../cpu_SoC.srcs/sources_1/imports/cpu_SoC/register.v" \
+"../../../../cpu_SoC.srcs/sources_1/imports/cpu_SoC/sext.v" \
+"../../../../top.v" \
+"../../../../tubedisplay.v" \
+"../../../../cpu_SoC.srcs/sim_1/new/top_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

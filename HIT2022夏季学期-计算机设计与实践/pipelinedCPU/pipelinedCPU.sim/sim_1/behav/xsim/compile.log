@@ -1,0 +1,21 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/codeworkplace/VS-Code-V/project/pipelinedCPU/pipelinedCPU.srcs/sources_1/new/param.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/codeworkplace/VS-Code-V/project/pipelinedCPU/pipelinedCPU.srcs/sources_1/ip/dram/sim/dram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/codeworkplace/VS-Code-V/project/pipelinedCPU/pipelinedCPU.srcs/sources_1/ip/prgrom/sim/prgrom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module prgrom
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/codeworkplace/VS-Code-V/project/pipelinedCPU/pipelinedCPU.srcs/sources_1/ip/cpuclk/cpuclk_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpuclk_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/codeworkplace/VS-Code-V/project/pipelinedCPU/pipelinedCPU.srcs/sources_1/ip/cpuclk/cpuclk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpuclk
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/codeworkplace/VS-Code-V/project/pipelinedCPU/DIPswitch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIPswitch
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/codeworkplace/VS-Code-V/project/pipelinedCPU/pipelinedCPU.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+WARNING: [VRFC 10-2292] extra semicolon is not allowed here in this dialect. Use SystemVerilog mode [D:/codeworkplace/VS-Code-V/project/pipelinedCPU/pipelinedCPU.srcs/sources_1/new/alu.v:41]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/codeworkplace/VS-Code-V/project/pipelinedCPU/pipelinedCPU.srcs/sources_1/new/branchsel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branchsel
+INFO: [VRFC 10-2458] undeclared symbol BrEq, assumed default net type wire [D:/codeworkplace/VS-Code-V/project/pipelinedCPU/pipelinedCPU.srcs/sources_1/new/branchsel.v:31]
+INFO: [VRFC 10-2458] undeclared symbol BrLt, assumed default net type wire [D:/codeworkplace/VS-Code-V/project/pipelinedCPU/pipelinedCPU.srcs/sources_1/new/branchsel.v:34]
+ERROR: [VRFC 10-91] rD1 is not declared [D:/codeworkplace/VS-Code-V/project/pipelinedCPU/pipelinedCPU.srcs/sources_1/new/branchsel.v:31]
+ERROR: [VRFC 10-91] rD1 is not declared [D:/codeworkplace/VS-Code-V/project/pipelinedCPU/pipelinedCPU.srcs/sources_1/new/branchsel.v:37]
+ERROR: [VRFC 10-2787] module branchsel ignored due to previous errors [D:/codeworkplace/VS-Code-V/project/pipelinedCPU/pipelinedCPU.srcs/sources_1/new/branchsel.v:22]
